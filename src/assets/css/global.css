@@ -1,6 +1,24 @@
-html,body,#app{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    min-width: 1366px;
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+.el-breadcrumb {
+  margin: 20px;
+}
+.el-submenu__title {
+  background-color: #daa190 !important;
+}
+.el-menu-item {
+  color: #d7d3ca;
+  background-color: #73a373 !important;
+}
+.el-submenu__title i {
+  color: #efdd79;
+}
+.el-table {
+  margin-top: 15px;
 }

@@ -19,7 +19,7 @@
             unique-opened
             background-color="#545c64"
             text-color="#fff"
-            active-text-color="pink"
+            active-text-color="#fff"
             router
             :default-active="activePath"
           >
@@ -51,7 +51,7 @@
 
         <!-- 主体 -->
         <el-main>
-            <router-view />
+          <router-view />
         </el-main>
       </el-container>
     </el-container>
@@ -110,7 +110,7 @@ export default {
   height: 100%;
 }
 .el-header {
-  background-color: #eb8a64;
+  background-color: #ec7a46;
   display: flex;
   justify-content: space-between;
   padding-left: 0;
@@ -126,23 +126,24 @@ export default {
   }
 }
 .el-aside {
-  background-color: #5e8c6f;
+  background-color: #689a99;
   color: #fff;
   height: 600px;
   span {
     margin-left: 15px;
   }
   .el-menu {
-      border-right: none
+    border-right: none;
+    background-color: #fff !important;
   }
 }
 
 .el-main {
-  background-color: #e9eef3;
-  color: rgb(114, 137, 182);
-  line-height: 160px;
+  background-color: #f0b200;
+  color: red;
 }
 .toggle_button {
   text-align: center;
 }
+
 </style>
